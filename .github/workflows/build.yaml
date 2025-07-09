@@ -4,7 +4,7 @@ on:
     branches: ["main"]
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: "Sioood/esgi-front-test-prod"
+  IMAGE_NAME: "sioood/esgi-front-test-prod"
 
 jobs:
   amd64:
