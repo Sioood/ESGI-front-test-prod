@@ -1,9 +1,7 @@
 services:
   front:
     container_name: ESGI-front-prod
-    build:
-      context: .
-      target: prod
+    image: ghcr.io/sioood/esgi-front-test-prod:latest
     ports:
       - "3000:3000"
 
