@@ -4,4 +4,6 @@ services:
     image: ghcr.io/sioood/esgi-front-test-prod:latest
     ports:
       - "3000:3000"
-
+    environment:
+      - API_BASE_URL=${API_BASE_URL}
+    restart: always
