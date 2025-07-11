@@ -13,6 +13,8 @@ jobs:
       contents: read
       packages: write
     steps:
+      - name: Debug runner
+        run: echo "Runner is alive"
       - uses: actions/checkout@v3
       - name: Login to ghcr.io
         uses: docker/login-action@v2
